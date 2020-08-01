@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class tienda extends Model
 {
-    protected $table = 'tienda';
+    protected $table = 'tiendas';
     protected $guarded = ['id'];
 }

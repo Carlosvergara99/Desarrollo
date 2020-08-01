@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('api/tienda', 'TiendaController')->except([
+    'create', 'show'
+]);
